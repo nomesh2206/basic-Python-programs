@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Thu May  4 12:38:32 2023
-
-@author: a
-"""
 
 def fun(l,index,num):
     l1=[]

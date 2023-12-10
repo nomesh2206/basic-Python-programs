@@ -20,7 +20,7 @@ class Solution:
                     res += i
                 n = n // i
             else:
-                i += 1
+                i += 1 
         return res if count > 1 else 0
 
     @staticmethod

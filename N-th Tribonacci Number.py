@@ -1,7 +1,7 @@
 def nthTribonacci(n):
     dp = [-1]*21
-    dp[0] = dp[1] = 0
-    dp[2] = 1
+    dp[0] = 0
+    dp[1] = dp[2] = 1
     def tribo(n):
         if(n==0 or n==1):
             return 0

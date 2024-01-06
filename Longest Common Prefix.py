@@ -10,9 +10,7 @@ class Solution:
 
     def findPrefix(self,prefix, string):
         while prefix is not "":
-            
             if string.startswith(prefix):
-                
                 return prefix
             else:
                 prefix = prefix[:-1]

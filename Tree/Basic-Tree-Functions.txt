@@ -1,0 +1,16 @@
+In a typical tree class, we have pre-defined methods to manipulate or traverse the tree. Here are some common methods you might find:
+
+1. Search: A method to search for a specific value in the tree. This would typically be a recursive method that starts at the root and traverses the tree to find the value.
+
+2. Delete: A method to delete a node with a specific value from the tree. This can be a bit more complex, as you need to consider different cases (node with no children, node with one child, node with two children).
+
+3. Traversal: There are several ways to traverse a tree:
+
+    In-order traversal: Visit the left subtree, then the root, then the right subtree. This visits nodes in ascending order in a BST.
+    Pre-order traversal: Visit the root, then the left subtree, then the right subtree.
+    Post-order traversal: Visit the left subtree, then the right subtree, then the root.
+    Level-order traversal: Visit nodes level by level, starting from the root and moving to the next level.
+
+4. Height/Depth: Methods to calculate the height (or depth) of the tree, which is the length of the longest path from the root to a leaf node.
+
+5. Insert: To insert a new node in a tree

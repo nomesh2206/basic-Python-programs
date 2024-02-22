@@ -33,3 +33,6 @@ head.next.next = Node(3)
 head.next.next.next = Node(4)
 head.next.next.next.next = Node(5)
 head.next.next.next.next.next = head.next  # Create a cycle
+
+cycle_length = find_cycle_length(head)
+print("Length of the cycle:", cycle_length)

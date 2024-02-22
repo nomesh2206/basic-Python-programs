@@ -1,3 +1,8 @@
+class Node:
+    def __init__(self, data):
+        self.data = data
+        self.next = None
+
 def find_cycle_length(head):
     slow = head
     fast = head
